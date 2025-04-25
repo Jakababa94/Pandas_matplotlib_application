@@ -7,6 +7,18 @@ This project demonstrates how to analyze and visualize the Iris dataset using Py
 
 ---
 
+## Table of Contents
+1. [Files in the Workspace](#files-in-the-workspace)
+2. [Dataset](#dataset)
+3. [`dataset.py`](#datasetpy)
+4. [`data_visualization.py`](#data_visualizationpy)
+5. [How to Run the Code](#how-to-run-the-code)
+6. [Example Use Cases](#example-use-cases)
+7. [References](#references)
+8. [Author](#author)
+
+---
+
 ## Files in the Workspace
 
 - **`dataset.py`**: Contains code for loading the dataset, performing data cleaning, and generating statistical summaries.
@@ -67,10 +79,14 @@ This script creates the following visualizations:
 - `seaborn`: For creating aesthetically pleasing statistical plots.
 
 ### Example Visualizations:
-- Line chart of sepal and petal lengths over time.
-- Bar chart of average sepal length by species.
-- Histogram of sepal length distribution.
-- Scatter plot of sepal length vs. petal length.
+- **Line Chart**: Simulates a time series of sepal and petal lengths over days.  
+  ![Line Chart Example](Diagrams/Line_graph.png)
+- **Bar Chart**: Displays the average sepal length for each species.  
+  ![Bar Chart Example](Diagrams/Bar_graph.png)
+- **Histogram**: Shows the distribution of sepal lengths.  
+  ![Histogram Example](Diagrams/Histogram.png)
+- **Scatter Plot**: Plots sepal length against petal length to explore their relationship.  
+  ![Scatter Plot Example](Diagrams/Scatter_graph.png)
 
 ---
 
@@ -80,31 +96,29 @@ This script creates the following visualizations:
 2. Install the required libraries using the following command:
    ```bash
    pip install pandas matplotlib seaborn
+
 3. Run the scripts:
-   For data analysis:
+For data analysis:
    ```bash
    python dataset.py
-    
-   For data visualization:
-   ```bash
-   python data_visualizaion
-
+   python data_visualization.py````
 ---
 
 ## Example Use Cases
-- `Data Analysis:` Understand the statistical properties of the Iris dataset.
-- `Visualization:` Explore relationships and distributions within the dataset.
-- `Learning:` Practice data analysis and visualization techniques in Python.
+- **Data Analysis**: Understand the statistical properties of the Iris dataset.
+- **Visualization**: Explore relationships and distributions within the dataset.
+- **Learning**: Practice data analysis and visualization techniques in Python.
 
 ---
 
 ## References
-- Iris Dataset on GitHub
-- Pandas Documentation
-- Matplotlib Documentation
-- Seaborn Documentation
+- [Iris Dataset on GitHub](https://github.com/mwaskom/seaborn-data)
+- [Pandas Documentation](https://pandas.pydata.org/docs/)
+- [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
+- [Seaborn Documentation](https://seaborn.pydata.org/)
 
 ---
 
 ## Author
-This project was created by Job Otieno as part of a Python assignment for Week 7.
+This project was created by Job Otieno as part of a Python assignment for Week 7.  
+For more projects, visit Job Otieno's GitHub(https://github.com/Jakababa94)
