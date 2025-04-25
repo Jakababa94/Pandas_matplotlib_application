@@ -82,11 +82,11 @@ This script creates the following visualizations:
    pip install pandas matplotlib seaborn
 3. Run the scripts:
    For data analysis:
-   ``bash
+   ```bash
    python dataset.py
     
    For data visualization:
-   ``bash
+   ```bash
    python data_visualizaion
 
 ---
